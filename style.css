@@ -347,10 +347,6 @@ a[data-lightbox] {
 	text-align: center
 }
 
-a[data-lightbox] img {
-	width: auto;
-	height: auto;
-}
 
 a[data-lightbox]:hover::before {
 	content: "+";
@@ -478,7 +474,9 @@ h4 {
 }
 
 .portfolio-thumb {
-	margin-bottom: 24px
+	margin-bottom: 24px;
+	width: auto;
+	height: auto;
 }
 
 .portfolio-row {
