@@ -1,4 +1,3 @@
-// Blocs.js Minified
 function setUpSpecialNavs() {
     $(".navbar-toggle").click(function(t) {
         var e = $(this).closest("nav"),
@@ -17,8 +16,7 @@ function setUpSpecialNavs() {
                         var t = "fadeInRight",
                             e = 0,
                             i = 60;
-                        $(".blocsapp-special-menu blocsnav").hasClass("fullscreen-nav") ? (t = "fadeIn", i = 100) : $(".blocsapp-special-menu").hasClass("nav-invert") && (t = "fadeInLeft");
-                        $(".blocsapp-special-menu blocsnav li").each(function() {
+                        $(".blocsapp-special-menu blocsnav").hasClass("fullscreen-nav") ? (t = "fadeIn", i = 100) : $(".blocsapp-special-menu").hasClass("nav-invert") && (t = "fadeInLeft"), $(".blocsapp-special-menu blocsnav li").each(function() {
                             $(this).parent().hasClass("dropdown-menu") ? $(this).addClass("animated fadeIn") : (e += i, $(this).attr("style", "animation-delay:" + e + "ms").addClass("animated " + t))
                         })
                     }(), setTimeout(function() {
