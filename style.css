@@ -347,6 +347,11 @@ a[data-lightbox] {
 	text-align: center
 }
 
+a[data-lightbox] img {
+	width: auto;
+	height: auto;
+}
+
 a[data-lightbox]:hover::before {
 	content: "+";
 	font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
