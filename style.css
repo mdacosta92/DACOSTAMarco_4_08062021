@@ -344,7 +344,7 @@ button {
 a[data-lightbox] {
 	position: relative;
 	display: block;
-	text-align: center
+	text-align: center;
 }
 
 
@@ -475,8 +475,6 @@ h4 {
 
 .portfolio-thumb {
 	margin-bottom: 24px;
-	width: auto;
-	height: auto;
 }
 
 .portfolio-row {
