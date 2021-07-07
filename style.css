@@ -7,11 +7,6 @@ body {
 	-moz-osx-font-smoothing: grayscale
 }
 
-img
-{
-	width: auto;
-	height: auto;
-
 a,
 button {
 	transition: all .3s ease-in-out;
