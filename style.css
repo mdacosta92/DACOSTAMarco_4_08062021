@@ -210,8 +210,6 @@ a:hover {
 	font-weight: 400;
 	font-weight: 600;
 	line-height: 44px;
-	height: 40px;
-	width: 200px;
 }
 
 .navbar-brand > img {
@@ -221,8 +219,6 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
 	min-width: 100px;
-	height: 40px;
-	width: 200px;
 }
 
 .navbar .nav {
