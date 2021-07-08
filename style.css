@@ -508,11 +508,11 @@ p.text-center.white {
 }
 
 .tc-white {
-	color: white;
+	color: #000000;
 }
 
 .btn-atomic-tangerine {
-	background: #EBE8CD;
+	background: #000000;
 	color: white;
 }
 
