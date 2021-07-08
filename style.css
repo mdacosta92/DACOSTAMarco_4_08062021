@@ -213,8 +213,8 @@ a:hover {
 }
 
 a.navbar-brand > img {
-	height: 40px;
-	width: 200px;
+	height: 72px;
+	width: 386px;
 }
 
 .navbar-brand img[src$=svg] {
