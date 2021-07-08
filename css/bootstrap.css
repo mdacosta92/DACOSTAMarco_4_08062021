@@ -126,6 +126,7 @@ button::-moz-focus-inner {
 
 @font-face {
 	font-family: 'Glyphicons Halflings';
+	font-display: swap;
 	src: url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.eot);
 	src: url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.woff) format('woff'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
