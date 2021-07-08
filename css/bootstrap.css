@@ -45,10 +45,6 @@ h1 {
 	font-size: 2em
 }
 
-img {
-	border: 0
-}
-
 button {
 	margin: 0;
 	font: inherit;
@@ -178,7 +174,9 @@ a:focus {
 }
 
 img {
-	vertical-align: middle
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
 }
 
 .img-responsive {
