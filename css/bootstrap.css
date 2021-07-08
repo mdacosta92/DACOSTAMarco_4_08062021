@@ -45,7 +45,7 @@ h1 {
 	font-size: 2em
 }
 
-img {
+.col-sm-12.text-center > img {
 	vertical-align: middle;
 	width: 250px;
 	height: 100px;
