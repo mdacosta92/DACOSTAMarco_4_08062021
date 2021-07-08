@@ -45,6 +45,12 @@ h1 {
 	font-size: 2em
 }
 
+img {
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+}
+
 button {
 	margin: 0;
 	font: inherit;
@@ -171,6 +177,10 @@ a:focus {
 	outline: thin dotted;
 	outline: 5px auto -webkit-focus-ring-color;
 	outline-offset: -2px
+}
+
+.navbar-brand>img {
+	display: block
 }
 
 .img-responsive {
