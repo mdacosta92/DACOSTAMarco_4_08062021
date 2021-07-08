@@ -130,14 +130,6 @@ button::-moz-focus-inner {
 	src: url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.woff) format('woff'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	height: 40px;
-	width: 200px;
-}
-
 :after,
 :before {
 	-webkit-box-sizing: border-box;
