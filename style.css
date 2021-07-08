@@ -664,7 +664,7 @@ p.text-center.white {
 		box-shadow: none
 	}
 	.navbar-brand img {
-		max-height: 40px;
+		height: auto;
 		width: auto
 	}
 	.bloc {
