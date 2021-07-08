@@ -47,7 +47,7 @@ h1 {
 
 img {
 	vertical-align: middle;
-	width: 100px;
+	width: 250px;
 	height: 100px;
 }
 
@@ -180,7 +180,9 @@ a:focus {
 }
 
 .navbar-brand>img {
-	display: block
+	display: block;
+	height: 40px;
+    	width: 200px;
 }
 
 .img-responsive {
