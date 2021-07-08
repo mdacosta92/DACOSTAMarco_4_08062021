@@ -374,7 +374,7 @@ a[data-lightbox]:hover img {
 .lightbox-caption {
 	padding: 20px;
 	color: #fff;
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0);
 	position: absolute;
 	left: 15px;
 	right: 15px;
@@ -383,7 +383,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
 	padding: 0;
-	color: rgba(0, 0, 0, .5);
+	color: rgba(0, 0, 0);
 	background: 0 0
 }
 
