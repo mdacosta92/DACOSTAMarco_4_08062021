@@ -179,12 +179,6 @@ a:focus {
 	outline-offset: -2px
 }
 
-.navbar-brand>img {
-	display: block;
-	height: 40px;
-    	width: 200px;
-}
-
 .img-responsive {
 	display: block;
 	max-width: 100%;
