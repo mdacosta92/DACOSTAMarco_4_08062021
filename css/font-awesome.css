@@ -4,7 +4,7 @@
  */
 
 @font-face {
-	font-family: FontAwesome;
+	@font-face { font-family: FontAwesome; font-display: swap; }
 	src: url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/fontawesome-webfont.eot?v=4.7.0);
 	src: url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
 	font-weight: 400;
