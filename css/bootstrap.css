@@ -45,10 +45,10 @@ h1 {
 	font-size: 2em
 }
 
-.text-center > img {
+col-sm-12.text-center > img {
 	vertical-align: middle;
-	width: 600px;
-	height: 125px;
+	width: 613px;
+	height: 84px;
 }
 
 button {
@@ -392,6 +392,11 @@ ul ul {
 
 .col-xs-12 {
 	width: 100%
+}
+
+.col-xs-12 > img {
+	width: 562px;
+	height: 148px;
 }
 
 .col-xs-11 {
