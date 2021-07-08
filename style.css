@@ -508,12 +508,12 @@ p.text-center.white {
 }
 
 .tc-white {
-	color: #f3976c!important
+	color: white;
 }
 
 .btn-atomic-tangerine {
-	background: #f3976c;
-	color: #fff!important
+	background: #EBE8CD;
+	color: white;
 }
 
 .btn-atomic-tangerine:hover {
