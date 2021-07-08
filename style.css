@@ -212,7 +212,7 @@ a:hover {
 	line-height: 44px;
 }
 
-.navbar-brand > img {
+a.navbar-brand > img {
 	height: 40px;
 	width: 200px;
 }
