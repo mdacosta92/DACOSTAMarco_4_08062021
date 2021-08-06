@@ -95,22 +95,6 @@ a:hover {
 	color: rgba(255, 255, 255, .9)
 }
 
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-sm,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-	color: rgba(255, 255, 255, 1)
-}
-
 .d-bloc .navbar-toggle .icon-bar {
 	background: rgba(255, 255, 255, 1)
 }
