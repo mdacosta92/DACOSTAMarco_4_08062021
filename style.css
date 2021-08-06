@@ -312,7 +312,7 @@ a[data-lightbox] {
 
 a[data-lightbox] > img {
     width: 320px;
-    height: 32Opx;
+    height: 320px;
 }
 
 a[data-lightbox]:hover::before {
@@ -530,13 +530,13 @@ p.text-center.white {
 	}
 }
 
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
 	.b-parallax {
 		background-attachment: scroll
 	}
 }
 
-@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
+@media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
 	.b-parallax {
 		background-attachment: scroll
 	}
@@ -553,10 +553,6 @@ p.text-center.white {
 	.page-container {
 		overflow-x: hidden;
 		position: relative
-	}
-	.bloc {
-		padding-left: constant(safe-area-inset-left);
-		padding-right: constant(safe-area-inset-right)
 	}
 }
 
