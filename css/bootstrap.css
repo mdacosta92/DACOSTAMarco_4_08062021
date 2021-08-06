@@ -7,10 +7,6 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-.bg-presentation {
-	background-image: url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/img/image-de-presentation.jpg)
-}
-
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
