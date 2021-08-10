@@ -164,7 +164,6 @@ a:hover {
 
 #bloc-1-hero h1 {
 	font-size: 32px;
-	color: white;
 }
 
 .navbar {
@@ -358,7 +357,6 @@ a[data-lightbox]:hover img {
 
 .btn,
 a,
-h1,
 h2,
 h3,
 h4,
