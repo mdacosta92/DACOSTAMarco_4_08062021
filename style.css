@@ -78,11 +78,6 @@ a:hover {
 	right: 0
 }
 
-.texture-paper::before {
-	background: url(https://mdacosta92.github.io/DACOSTAMarco_4_08062021/img/texture-paper.png);
-	background-size: 280px 280px
-}
-
 .b-parallax {
 	background-attachment: fixed
 }
