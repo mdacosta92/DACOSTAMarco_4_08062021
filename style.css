@@ -306,7 +306,7 @@ a[data-lightbox] {
 }
 
 a[data-lightbox] > img {
-    width: 320px;
+    width: 270px;
     height: 320px;
 }
 
