@@ -395,7 +395,7 @@ ul ul {
 }
 
 .col-xs-12 > img {
-	width: 562px;
+	width: 100%;
 	height: 148px;
 }
 
