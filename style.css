@@ -408,7 +408,9 @@ h3 {
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: white;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .med-width-whitespace {
