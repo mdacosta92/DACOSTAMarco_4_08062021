@@ -303,6 +303,9 @@ a[data-lightbox] {
 	position: relative;
 	display: block;
 	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 a[data-lightbox] > img {
