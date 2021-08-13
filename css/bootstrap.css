@@ -1254,9 +1254,18 @@ caption {
 	content: " "
 }
 
+.container:after,
+.container:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
 .navbar-header:after,
+.navbar-header:before,
 .navbar:after,
-.row:after {
+.navbar:before,
+.row:after,
+.row:before  {
 	clear: both
 }
 
