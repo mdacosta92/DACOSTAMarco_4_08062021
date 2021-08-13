@@ -1238,19 +1238,13 @@ caption {
 	}
 }
 
-.container:after,
 .container:before,
-.nav:after,
 .nav:before,
-.navbar-collapse:after,
 .navbar-collapse:before,
-.navbar-header:after,
 .navbar-header:before,
-.navbar:after,
 .navbar:before,
-.row:after,
 .row:before {
-	display: table;
+	display: none;
 	content: " "
 }
 
@@ -1260,7 +1254,7 @@ caption {
 .navbar-header:after,
 .navbar:after,
 .row:after {
-	clear: both
+	display: table;
 }
 
 .center-block {
