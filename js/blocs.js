@@ -1,5 +1,6 @@
 // Blocs.js Minified
 function setUpSpecialNavs() {
+    $('.navbar-toggle').off('dblclick');
     $(".navbar-toggle").click(function(t) {
         var e = $(this).closest("nav"),
             i = e.find("ul.site-navigation"),
