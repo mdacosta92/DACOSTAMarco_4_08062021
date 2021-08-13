@@ -3,6 +3,10 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under the MIT license
  */
+jQuery('.clickdisable').bind('dblclick',function(e){
+    e.preventDefault();
+})
+
 if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requires jQuery"); + function(a) {
     "use strict";
     var b = a.fn.jquery.split(" ")[0].split(".");
