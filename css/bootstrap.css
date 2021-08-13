@@ -970,6 +970,14 @@ caption {
 	padding: 10px 15px
 }
 
+@media (max-width:768px) {
+	.nav>li>a {
+	position: relative;
+	display: block;
+	padding: 0px 0px
+	}
+}
+	
 .nav>li>a:focus,
 .nav>li>a:hover {
 	text-decoration: none;
