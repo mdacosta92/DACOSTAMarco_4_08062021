@@ -176,8 +176,8 @@ a:hover {
 }
 
 a.navbar-brand > img {
-	height: 273px;
-    	width: 64px;
+	height: 64px;
+    	width: 273px;
     	max-width: 100%;
 }
 
