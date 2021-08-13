@@ -176,8 +176,9 @@ a:hover {
 }
 
 a.navbar-brand > img {
-	height: 72px;
-	width: 287px;
+	height: auto;
+    	width: auto;
+    	max-width: 100%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -615,10 +616,9 @@ p.text-center.white {
 		-webkit-box-shadow: none;
 		box-shadow: none
 	}
-	.navbar-brand img {
-		max-width: 85%:
+
 }
-	}
+
 	.bloc {
 		padding-left: 0;
 		padding-right: 0
