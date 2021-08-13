@@ -116,7 +116,8 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
 	color: rgba(0, 0, 0, 1);
-	padding: 0;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .l-bloc .a-btn:hover,
