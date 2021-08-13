@@ -285,8 +285,15 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
     var e = a.fn.collapse;
     a.fn.collapse = c, a.fn.collapse.Constructor = d, a.fn.collapse.noConflict = function() {
         return a.fn.collapse = e, this
-}
-    (jQuery), + function(a) {
+    }, a(document).on("click.bs.collapse.data-api", '[data-toggle="collapse"]', function(d) {
+        var e = a(this);
+        e.attr("data-target") || d.preventDefault();
+        var f = b(e),
+            g = f.data("bs.collapse"),
+            h = g ? "toggle" : e.data();
+        c.call(f, h)
+    })
+}(jQuery), + function(a) {
     "use strict";
 
     function b(b) {
