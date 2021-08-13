@@ -1238,24 +1238,40 @@ caption {
 	}
 }
 
+.btn-group-vertical>.btn-group:after,
+.btn-group-vertical>.btn-group:before,
+.btn-toolbar:after,
+.btn-toolbar:before,
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
 .container:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,
+.modal-footer:after,
+.modal-footer:before,
+.nav:after,
 .nav:before,
+.navbar-collapse:after,
 .navbar-collapse:before,
+.navbar-header:after,
 .navbar-header:before,
+.navbar:after,
 .navbar:before,
+.pager:after,
+.pager:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
 .row:before {
-	display: none;
-	content: " "
+    display: table;
+    content: " "
 }
 
-.container:after,
-.nav:after,
-.navbar-collapse:after,
-.navbar-header:after,
-.navbar:after,
-.row:after {
-	display: table;
-}
 
 .center-block {
 	display: block;
