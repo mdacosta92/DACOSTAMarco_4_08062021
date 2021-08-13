@@ -616,9 +616,7 @@ p.text-center.white {
 		box-shadow: none
 	}
 	.navbar-brand img {
-		height: auto;
-		width: auto;
-		max-width: 100%;
+		max-width: 85%:
 }
 	}
 	.bloc {
