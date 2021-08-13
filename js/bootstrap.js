@@ -264,7 +264,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
             var b = a.Event("hide.bs.collapse");
             if (this.$element.trigger(b), !b.isDefaultPrevented()) {
                 var c = this.dimension();
-                this.$element[c](this.$element[c]())[0].offsetHeight, this.$element.addClass("collapsing").removeClass("collapse in").attr("aria-expanded", !1), this.$trigger.addClass("collapsed").attr("aria-expanded", !1), this.transitioning = 1;
+                this.$element[c](this.$element[c]())[0].offsetHeight, this.$element.addClass("collapsing").removeClass("collapse in").attr("aria-expanded", !0), this.$trigger.addClass("collapsed").attr("aria-expanded", !0, this.transitioning = 1;
                 var e = function() {
                     this.transitioning = 0, this.$element.removeClass("collapsing").addClass("collapse").trigger("hidden.bs.collapse")
                 };
