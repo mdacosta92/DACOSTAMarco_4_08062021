@@ -1240,8 +1240,8 @@ caption {
 
 .container:after,
 .container:before,
+.nav:after,
 .nav:before,
-.navbar-collapse:after,
 .navbar-collapse:before,
 .navbar-header:after,
 .navbar-header:before,
