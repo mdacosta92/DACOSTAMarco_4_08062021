@@ -322,7 +322,6 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
         })
     }
     var e = ".dropdown-backdrop",
-        f = '[data-toggle="dropdown"]',
         g = function(b) {
             a(b).on("click.bs.dropdown", this.toggle)
         };
