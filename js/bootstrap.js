@@ -249,9 +249,9 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                 if (this.$element.trigger(f), !f.isDefaultPrevented()) {
                     e && e.length && (c.call(e, "hide"), b || e.data("bs.collapse", null));
                     var g = this.dimension();
-                    this.$element.removeClass("collapse").addClass("collapsing")[g](0).attr("aria-expanded", !0), this.$trigger.removeClass("collapse").attr("aria-expanded", !0), this.transitioning = 1;
+                    this.$element.removeClass("collapse in").addClass("collapse")[g](0).attr("aria-expanded", !0), this.$trigger.removeClass("collapsed").attr("aria-expanded", !0), this.transitioning = 1;
                     var h = function() {
-                        this.$element.removeClass("collapsing").addClass("collapse in")[g](""), this.transitioning = 0, this.$element.trigger("shown.bs.collapse")
+                        this.$element.removeClass("collapse").addClass("collapse in")[g](""), this.transitioning = 0, this.$element.trigger("shown.bs.collapse")
                     };
                     if (!a.support.transition) return h.call(this);
                     var i = a.camelCase(["scroll", g].join("-"));
