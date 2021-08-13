@@ -1,6 +1,5 @@
 // Blocs.js Minified
 function setUpSpecialNavs() {
-    $('.navbar-toggle').off('dblclick');
     $(".navbar-toggle").click(function(t) {
         var e = $(this).closest("nav"),
             i = e.find("ul.site-navigation"),
@@ -30,7 +29,7 @@ function setUpSpecialNavs() {
         $(".content-tint").removeClass("on"), $(".selected-nav").click(), setTimeout(function() {
             $(".content-tint").remove()
         }, 10)
-    }).on("click", ".blocsapp-special-menu a", function(t) {
+    }).off("dblclick", ".blocsapp-special-menu a", function(t) {
         $(t.target).closest(".dropdown-toggle").length || $(".close-special-menu").mousedown()
     })
 }
