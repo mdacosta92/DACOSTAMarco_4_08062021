@@ -618,7 +618,9 @@ p.text-center.white {
 	}
 	.navbar-brand img {
 		height: auto;
-		width: auto
+		width: auto;
+		max-width: 100%;
+}
 	}
 	.bloc {
 		padding-left: 0;
