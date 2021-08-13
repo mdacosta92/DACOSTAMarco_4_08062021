@@ -337,7 +337,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
                     relatedTarget: this
                 };
                 if (f.trigger(d = a.Event("show.bs.dropdown", h)), d.isDefaultPrevented()) return;
-                e.trigger("focus").attr("aria-expanded", "true"), f.toggleClass("open").trigger("shown.bs.dropdown", h)
+                e.trigger("focus").attr("aria-expanded", "false"), f.toggleClass("open").trigger("shown.bs.dropdown", h)
             }
             return !1
         }
