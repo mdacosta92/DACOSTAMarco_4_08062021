@@ -7,10 +7,6 @@ body {
 	-moz-osx-font-smoothing: grayscale
 }
 
-p{
-	max-width: 90%;
-}
-
 a,
 button {
 	transition: all .3s ease-in-out;
