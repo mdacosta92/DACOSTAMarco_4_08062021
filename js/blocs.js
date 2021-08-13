@@ -29,7 +29,7 @@ function setUpSpecialNavs() {
         $(".content-tint").removeClass("on"), $(".selected-nav").click(), setTimeout(function() {
             $(".content-tint").remove()
         }, 10)
-    }).off("dblclick", ".blocsapp-special-menu a", function(t) {
+    }).on("click", ".blocsapp-special-menu a", function(t) {
         $(t.target).closest(".dropdown-toggle").length || $(".close-special-menu").mousedown()
     })
 }
